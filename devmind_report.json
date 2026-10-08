@@ -1,0 +1,417 @@
+{
+  "project": "DevMind-X",
+  "project_root": "/content/DevMind-X",
+  "analysis": {
+    "total_files": 28,
+    "python_files": 17,
+    "technologies": []
+  },
+  "testing": {
+    "total_tests": 50,
+    "passed": 50,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "tests": [
+    {
+      "test_name": "test_get_sorted_values_behavior_1",
+      "source_file": "examples/performance_test_project/slow_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00018930435180664062,
+      "error": ""
+    },
+    {
+      "test_name": "test_get_another_sorted_values_behavior_2",
+      "source_file": "examples/performance_test_project/slow_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0001392364501953125,
+      "error": ""
+    },
+    {
+      "test_name": "test_get_sorted_values_behavior_3",
+      "source_file": "examples/performance_test_project/fixed_version/slow_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00012159347534179688,
+      "error": ""
+    },
+    {
+      "test_name": "test_get_another_sorted_values_behavior_4",
+      "source_file": "examples/performance_test_project/fixed_version/slow_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00011682510375976562,
+      "error": ""
+    },
+    {
+      "test_name": "test_calculate_total_behavior_5",
+      "source_file": "examples/bug_test_project/example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0001621246337890625,
+      "error": ""
+    },
+    {
+      "test_name": "test_process_data_behavior_6",
+      "source_file": "examples/bug_test_project/example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00012063980102539062,
+      "error": ""
+    },
+    {
+      "test_name": "test_find_matching_items_behavior_7",
+      "source_file": "examples/bug_test_project/example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010728836059570312,
+      "error": ""
+    },
+    {
+      "test_name": "test_process_items_behavior_8",
+      "source_file": "examples/bug_test_project/example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.846687316894531e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_get_sorted_values_behavior_9",
+      "source_file": "examples/bug_test_project/example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.274482727050781e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_execute_command_behavior_10",
+      "source_file": "examples/security_test_project/vulnerable_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.059906005859375e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_calculate_behavior_11",
+      "source_file": "examples/security_test_project/vulnerable_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 8.96453857421875e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_run_code_behavior_12",
+      "source_file": "examples/security_test_project/vulnerable_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.1552734375e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_fetch_data_behavior_13",
+      "source_file": "examples/security_test_project/vulnerable_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.012222290039062e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_authenticate_behavior_14",
+      "source_file": "examples/security_test_project/vulnerable_example.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0001239776611328125,
+      "error": ""
+    },
+    {
+      "test_name": "test_execute_command_behavior_15",
+      "source_file": "examples/security_test_project/fixed_version/vulnerable_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010037422180175781,
+      "error": ""
+    },
+    {
+      "test_name": "test_calculate_behavior_16",
+      "source_file": "examples/security_test_project/fixed_version/vulnerable_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 8.7738037109375e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_run_code_behavior_17",
+      "source_file": "examples/security_test_project/fixed_version/vulnerable_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.298324584960938e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_fetch_data_behavior_18",
+      "source_file": "examples/security_test_project/fixed_version/vulnerable_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010633468627929688,
+      "error": ""
+    },
+    {
+      "test_name": "test_authenticate_behavior_19",
+      "source_file": "examples/security_test_project/fixed_version/vulnerable_example_fixed.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00016355514526367188,
+      "error": ""
+    },
+    {
+      "test_name": "test_save_report_behavior_20",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 8.893013000488281e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_summary_behavior_21",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0023517608642578125,
+      "error": ""
+    },
+    {
+      "test_name": "test_assess_complexity_behavior_22",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00016570091247558594,
+      "error": ""
+    },
+    {
+      "test_name": "test_assess_testing_maturity_behavior_23",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0001354217529296875,
+      "error": ""
+    },
+    {
+      "test_name": "test_assess_security_surface_behavior_24",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0001201629638671875,
+      "error": ""
+    },
+    {
+      "test_name": "test_assess_technology_risk_behavior_25",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010585784912109375,
+      "error": ""
+    },
+    {
+      "test_name": "test_assess_maintainability_behavior_26",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 8.702278137207031e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_behavior_27",
+      "source_file": "src/analyzer/project_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0005376338958740234,
+      "error": ""
+    },
+    {
+      "test_name": "test_scan_files_behavior_28",
+      "source_file": "src/analyzer/project_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.0001399517059326172,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_python_file_behavior_29",
+      "source_file": "src/analyzer/project_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010585784912109375,
+      "error": ""
+    },
+    {
+      "test_name": "test_detect_dependencies_behavior_30",
+      "source_file": "src/analyzer/project_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.036064147949219e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_detect_entry_points_behavior_31",
+      "source_file": "src/analyzer/project_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 7.557868957519531e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_behavior_32",
+      "source_file": "src/analyzer/project_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 7.724761962890625e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_read_requirements_behavior_33",
+      "source_file": "src/analyzer/technology_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.012222290039062e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_find_python_imports_behavior_34",
+      "source_file": "src/analyzer/technology_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010013580322265625,
+      "error": ""
+    },
+    {
+      "test_name": "test_detect_technologies_behavior_35",
+      "source_file": "src/analyzer/technology_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00036072731018066406,
+      "error": ""
+    },
+    {
+      "test_name": "test_categorize_behavior_36",
+      "source_file": "src/analyzer/technology_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00013184547424316406,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_behavior_37",
+      "source_file": "src/analyzer/technology_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010275840759277344,
+      "error": ""
+    },
+    {
+      "test_name": "test_calculate_overall_risk_behavior_38",
+      "source_file": "src/analyzer/risk_profiler.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.489059448242188e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_behavior_39",
+      "source_file": "src/analyzer/risk_profiler.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.655952453613281e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_scan_files_behavior_40",
+      "source_file": "src/analyzer/deep_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 8.96453857421875e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_python_file_behavior_41",
+      "source_file": "src/analyzer/deep_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 8.463859558105469e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_detect_test_files_behavior_42",
+      "source_file": "src/analyzer/deep_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00018739700317382812,
+      "error": ""
+    },
+    {
+      "test_name": "test_detect_dependencies_behavior_43",
+      "source_file": "src/analyzer/deep_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00020170211791992188,
+      "error": ""
+    },
+    {
+      "test_name": "test_detect_entry_points_behavior_44",
+      "source_file": "src/analyzer/deep_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00011134147644042969,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_behavior_45",
+      "source_file": "src/analyzer/deep_analyzer.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00010013580322265625,
+      "error": ""
+    },
+    {
+      "test_name": "test_execute_test_behavior_46",
+      "source_file": "src/agents/test_executor.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00011873245239257812,
+      "error": ""
+    },
+    {
+      "test_name": "test_execute_all_behavior_47",
+      "source_file": "src/agents/test_executor.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.72747802734375e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_scan_files_behavior_48",
+      "source_file": "src/agents/performance_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.703636169433594e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_python_file_behavior_49",
+      "source_file": "src/agents/performance_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 9.608268737792969e-05,
+      "error": ""
+    },
+    {
+      "test_name": "test_analyze_behavior_50",
+      "source_file": "src/agents/performance_intelligence.py",
+      "status": "PASSED",
+      "passed": true,
+      "execution_time": 0.00014472007751464844,
+      "error": ""
+    }
+  ]
+}
